@@ -5,7 +5,7 @@ public class Paciente {
     private String estado;
     private double factorDosis;
     private int dosisAcumulada;
-    private Jaula jaulaAsignada;
+    private Jaula jaula;
 
     //Constructor
     public Paciente(String nombre, double peso, int edad, String estado, double factorDosis) {
